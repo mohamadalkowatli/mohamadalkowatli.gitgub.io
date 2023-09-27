@@ -71552,7 +71552,7 @@ A.Ii.prototype={
 K(a){A.mW(A.bx(a,B.iS,t.w).w.a.a)
 return new A.wR(B.He,"Portfolio App",A.ap8(null,"Signika Negative",null),!1,null)}}
 A.DL.prototype={
-K(a){var s=null,r="assets/images/aboutme.jpg",q=A.bx(a,s,t.w).w.a,p=q.b>750?1000:850,o=t.p,n=A.cP(A.a([A.akS(q),B.L_,A.aiD(new A.le(r,s,s),110)],o),B.x,B.y,B.q),m=A.e9(A.a([A.aiD(new A.le(r,s,s),110),B.KY,A.GH(A.akS(q),1)],o),B.x,B.y,B.q)
+K(a){var s=null,r="assets/images/aboutme.jpg",q=A.bx(a,s,t.w).w.a,p=q.b<500?950:850,o=t.p,n=A.cP(A.a([A.akS(q),B.L_,A.aiD(new A.le(r,s,s),110)],o),B.x,B.y,B.q),m=A.e9(A.a([A.aiD(new A.le(r,s,s),110),B.KY,A.GH(A.akS(q),1)],o),B.x,B.y,B.q)
 return A.qf(B.cd,A.e9(A.a([A.aiD(new A.le(r,s,s),130),B.KX,A.GH(A.akS(q),1)],o),B.x,B.y,B.q),730,!1,n,p,130,m,850)}}
 A.H4.prototype={
 K(a){var s=A.bx(a,null,t.w).w.a.b
@@ -71585,7 +71585,10 @@ case 2:return A.U(null,r)}})
 return A.V($async$$0,r)},
 $S:31}
 A.agL.prototype={
-$0(){},
+$0(){var s=document.createElement("a")
+s.href="/assets/images/mohamadAlkowatli_cv.pdf"
+s.download="mohamad-AL-kowatli-cv"
+s.click()},
 $S:0}
 A.wL.prototype={
 am(){var s=new A.at(new Float64Array(16))
