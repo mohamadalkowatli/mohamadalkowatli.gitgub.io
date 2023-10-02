@@ -71586,8 +71586,8 @@ return A.V($async$$0,r)},
 $S:31}
 A.agL.prototype={
 $0(){var s=document.createElement("a")
-s.href="/assets/images/mohamadAlkowatli_cv.pdf"
-s.download="mohamad-AL-kowatli-cv"
+s.href="assets/assets/images/mohamadAlkowatli_cv.pdf"
+s.download="mohamadAlkowatli_cv.pdf"
 s.click()},
 $S:0}
 A.wL.prototype={
